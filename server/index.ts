@@ -7,7 +7,7 @@ import coursesRouter from './routes/CourseRoutes'
 import ProfileRouter from './routes/ProfileRoutes'
 
 mongoose.connect
-(`mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cluster0.ekemlv8.mongodb.net/?retryWrites=true&w=majority`,)
+(`mongodb+srv:/${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cluster0.ekemlv8.mongodb.net/?retryWrites=true&w=majority`,)
     .then(() => console.log('DB ok'))
     .catch((e) => console.log('DB err', e))
 
