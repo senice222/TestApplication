@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import ArticleList from './pages/ArticleList';
-// import './styles/style.scss';
 import {BrowserRouter, Routes, Route, Navigate, Outlet} from 'react-router-dom'
 import Header from './components/Header';
 import PrivateCabinet from './pages/PrivateCabinet';
@@ -19,14 +18,8 @@ import {fetchAuthMe} from './redux/slices/UserSlice'
 import TestUserMarks from './pages/TestUserMarks'
 import ArticleCreate from './pages/ArticleCreate'
 
-export interface passingDataI {
-    correct?: number,
-    questionLength?: number,
-    name?: string
-}
-
 function App(): JSX.Element {
-    
+
     const ProtectedRoute = () => {
         const isAuth = useAppSelector(isSelectedAuth)
         if (!isAuth) {
@@ -36,8 +29,7 @@ function App(): JSX.Element {
     }
 
     const dispatch = useAppDispatch()
-    const [passingData, setPassingData] = useState<passingDataI>({})
-    
+
     useEffect(() => {
         dispatch(fetchAuthMe())
     }, [])
