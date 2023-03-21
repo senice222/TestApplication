@@ -1,0 +1,21 @@
+.passedTests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+}
+.passedTestItem {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 80vw;
+    height: 100px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    h1 {
+        color: white;
+        margin: 10px;
+    }
+}

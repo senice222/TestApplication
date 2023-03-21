@@ -1,0 +1,98 @@
+.resultBg {
+    display: flex;
+    justify-content: center;
+    min-height: 92%;
+}
+.result {
+    min-width: 80%;
+    background: #333333;
+    min-height: 600px;
+    border-radius: 20px;
+}
+.resultHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+.resultTitle {
+    color: white;
+    font-size: 55px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.correctDiv {
+    width: 200px;
+    height: 130px;
+    background: #282828;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+        color: white;
+        font-size: 50px;
+    }
+}
+
+.resultLine {
+    width: 90%;
+    margin-top: 20px;
+}
+.accuracy2 {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+.proccentDiv {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+        color: white;
+        font-size: 40px;
+        margin-right: 20px;
+        margin-top: 13px;
+    }
+}
+.accuracybar {
+    width: 90%;
+    height: 80px;
+    background: #2C2C2C;
+    border-radius: 20px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.accuracybar2 {
+    margin: 5px;
+    background: #FFA800;
+    height: 62px;
+    border-radius: 20px;
+}
+.checkresult {
+    display: flex;
+    justify-content: space-around;
+}
+.correctCont {
+    min-width: 20%;
+    height: 65px;
+    margin-top: 20px;
+    background: #282828;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: white;
+        font-size: 40px;
+    }
+}
+.userMarks {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}

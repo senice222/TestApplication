@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    background-color: #181818;
+    height: 68px;
+    align-items: center;
+    color: white;
+}
+.title {
+    color: #FFA800;
+    margin-left: 3vw;
+}
+.headerItems {
+    display: flex;
+}
+.headerLinks {
+    display: flex;
+    margin-left: 19vw;
+}
+.login {
+    display: flex;
+    margin-left: 8vw;
+}
+.headerLink {
+    margin-left: 25px;
+    cursor: pointer;
+    transition: .1s;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    margin-right: 15px;
+}
+.headerLink:hover {
+    color: #ffcd69;
+}
+.active {
+    color: #FFA800;
+}
+.vline {
+    background-color: white;
+    width: 1.5px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fullName {
+    margin-left: 10vw;
+}

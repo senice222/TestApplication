@@ -1,0 +1,56 @@
+.createWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.createTitleDiv {
+    display: flex;
+    background: #333333;
+    justify-content: center;
+    min-width: 65vw;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.createTitle {
+    outline: none;
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    width: 80%;
+}
+.saveTestNameBtn {
+    margin-top: 0px;
+    color: white;
+    font-size: 48px;
+    cursor: pointer;
+}
+.questionItemAdd {
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.submitTest {
+    width: 270px;
+    height: 60px;
+    background: #313131;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 20px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    transition: .2s;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        background-color: #2b2b2b;
+    }
+}

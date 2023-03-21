@@ -1,0 +1,25 @@
+.questionItemWrapper {
+    margin-top: 20px;
+    display: flex;
+    background: #333333;
+    flex-direction: column;
+    border-radius: 20px;
+    min-width: 55vw;
+    min-height: 100px;
+}
+.questionItemTitle {
+    margin-top: 30px;
+    outline: none;
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    width: 80%;
+    resize: none;
+    overflow: hidden;
+}
+.DefaultQuestionDiv {
+    display: flex;
+    justify-content: center;
+}

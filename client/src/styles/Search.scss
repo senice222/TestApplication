@@ -1,0 +1,30 @@
+.search {
+    display: flex;
+    background-color: #333333;
+    width: 1200px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.SearchInput {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    height: 45px;
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+    width: 900px;
+}
+.searchForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.buttonSubmit {
+    background: transparent;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.CourseItem {
+    width: 1200px;
+    height: 248px;
+    background: #333333;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.CourseItemImg {
+    margin-left: 30px;
+}
+.CourseItemText {
+    color: white;
+    margin-bottom: 60px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.passthetestbtn {
+    width: 270px;
+    height: 60px;
+    background: #282828;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 20px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    transition: .2s;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        background-color: #2b2b2b;
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "tests" :[
+        {
+            "name" : "qqwas",
+            "uid" : "1WSAD12sadfa@fASD",
+            "question" : [
+                {
+                    "title" : "How are you",
+                    "answers" : ["Fine", "Bad", "Good"],
+                    "right" : 0
+                }
+            ],
+            "users" : [
+                {
+                    "name" : "Sanek",
+                    "mark" : "2"
+                }
+            ]
+        }
+    ],
+    "users" : [
+        
+    ]
+}

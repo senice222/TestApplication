@@ -1,0 +1,110 @@
+.area {
+    width: 100%;
+    min-height: 92%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-cabinet {
+    width: 80%;
+    height: 300px;
+    background-color: #333333;
+    margin-top: 35px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0;
+}
+
+.avatarDiv {
+    width: 175px;
+    height: 175px;
+    background-color: #282828;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+}
+.personIcon {
+    color: white;
+}
+.userFullName {
+    font-size: 36px;
+    color: white;
+    margin-left: 7px;
+    margin-bottom: 0px;
+}
+.userId {
+    color: white;
+    font-size: 26px;
+    margin-left: 13px;
+    margin-top: 2px;
+}
+.testsInfo {
+    display: flex;
+    margin-top: 0px;
+    margin-right: 1.5vw;
+}
+.links {
+    display: flex; 
+    width: 80%;
+    background-color: #2E2E2E;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    height: 60px;
+    border-radius: 0 0 20px 20px;
+    flex-direction: row;
+}
+.user-link {
+    margin-top: 7px;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: 15px;
+    transition: .2s;
+    cursor: pointer;
+    &:after {
+        content: "";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width: 0%;
+        left: 0;
+        top: 40px;
+        transition: 0.3s;
+        border-radius: 3px;
+        // transform-origin: right;
+    }
+    &:hover:after {
+        width: 100%;
+        background-color: #dd9300;
+    }
+    &:hover {
+        color: #d1951d;
+    }
+}
+.testInfoItem {
+    margin-top: 0;
+    margin-left: 20px;
+    width: 200px;
+    height: 150px;
+    background: #282828;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        color: white;
+    }
+    p {
+        color: white;
+        margin-top: 0px;
+    }
+}

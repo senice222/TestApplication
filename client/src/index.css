@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 96%;
+    padding: 0;
+    background-color: #252525;
+}
+html {
+  height: 100vh;
+}
+#root {
+  height: 100%;
+}
